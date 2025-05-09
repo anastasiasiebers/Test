@@ -1,1 +1,4 @@
-requirements
+numpy
+pandas
+matplotlib
+jupyterlab
