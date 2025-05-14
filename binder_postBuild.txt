@@ -1,0 +1,2 @@
+# Enable JupyterLab and collaborative mode
+pip install jupyterlab
