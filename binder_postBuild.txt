@@ -1,2 +1,6 @@
 # Enable JupyterLab and collaborative mode
 pip install jupyterlab
+
+# Disable token authentication
+jupyter server --generate-config
+echo "c.ServerApp.token = ' '" >> ⁓/.jupyter/jupyter_server_config.py
